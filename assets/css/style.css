@@ -1,0 +1,103 @@
+/* General styles */
+* {
+    font-family: 'Red Hat Mono', monospace;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 2.2rem;
+}
+
+h4 {
+    font-size: 1.6rem;
+}
+
+ul {
+   list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-top: 0.5rem;
+}
+
+hr {
+    color:gray;
+    background-color:gray;
+}
+
+/* Style for the header children */
+.scores-time {
+    margin: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Styles for the question div */
+#question-container, #score-container {
+    position: relative;
+    width: 30rem;
+    height: 30rem;
+    left: calc(50% - 15rem);
+}
+
+#startQuiz {
+    position: relative;
+    width: 8rem;
+    left: calc(50% - 4rem);
+    margin-top: 0.5rem;
+    background-color: yellow;
+    border-radius: 7px;
+}
+
+#startQuiz:hover, .option-item:hover, #score-container button:hover {
+    box-shadow: 0 0 0.5rem 0.2rem orange;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Styles for answer options */
+.option-item{
+    cursor: pointer;
+    background-color: yellow;
+    border-radius: 7px;
+}
+
+/* Styles for score-container buttons */
+#score-container button {
+    margin-left: 2rem;
+    background-color: yellow;
+    border-radius: 7px;
+}
+
+/* Style for high scores list */
+#scores-list li {
+    background-color: aqua;
+}
+
+/*Media queries */
+@media screen and (max-width: 1700px){
+    * {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    * {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    * {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    * {
+        font-size: 9px;
+    }
+}
