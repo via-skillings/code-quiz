@@ -46,7 +46,7 @@ hr {
     width: 8rem;
     left: calc(50% - 4rem);
     margin-top: 0.5rem;
-    background-color: yellow;
+    background-color: rgb(49, 214, 200);
     border-radius: 7px;
 }
 
@@ -61,20 +61,20 @@ hr {
 /* Styles for answer options */
 .option-item{
     cursor: pointer;
-    background-color: yellow;
+    background-color: rgb(49, 214, 200);
     border-radius: 7px;
 }
 
 /* Styles for score-container buttons */
 #score-container button {
     margin-left: 2rem;
-    background-color: yellow;
+    background-color: rgb(49, 214, 200);
     border-radius: 7px;
 }
 
 /* Style for high scores list */
 #scores-list li {
-    background-color: aqua;
+    background-color: rgb(209, 233, 102);
 }
 
 /*Media queries */
